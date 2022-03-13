@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(194, 194, 22, 0.658);
+}
+.heading{
+    width:12%;
+    font-size:20px;
+    font-weight: bold;
+    margin:auto;
+}
+.main{
+    width:9vw;
+    height:90vh;
+    margin:10px auto;
+    /* border:3px solid red; */
+    display:grid;
+    grid-template-columns:30px 130px ;
+    grid-template-rows: repeat(7,130px);
+    gap: 10px;
+}
+.box{
+    background-color: rgba(9, 156, 9, 0.904);
+}
+.box1{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+}
+.box1:hover{
+    width:300px;
+}
+.box2{
+    width:130px;
+    height: 130px;
+    transition-property:all;
+    transition-duration: 3s;
+}
+.box2:hover{
+    width:300px;
+    height:300px;
+}
+.box3{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.box3:hover{
+    width:300px;
+}
+.box4{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+.box4:hover{
+    width:300px;
+}
+.box5{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+.box5:hover{
+    width:300px;
+}
+.box6{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+.box6:hover{
+    width:300px;
+}
+
+.box7{
+    width:130px;
+    height: 130px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+.box7:hover{
+    width:300px;
+}
+.link{
+    width:20%;
+    margin: auto;
+
+}
+.link a{
+    font-size: 20px;
+    font-weight: bold;
+}
